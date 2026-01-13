@@ -1,0 +1,58 @@
+# ===============================
+# Xcode
+# ===============================
+DerivedData/
+*.xcworkspace
+!*.xcworkspace/contents.xcworkspacedata
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# ===============================
+# Swift Package Manager
+# ===============================
+.build/
+Packages/
+Package.resolved
+
+# ===============================
+# CocoaPods (se usar no futuro)
+# ===============================
+Pods/
+
+# ===============================
+# Firebase
+# ===============================
+GoogleService-Info.plist
+
+# ===============================
+# Logs & temporários
+# ===============================
+*.log
+*.tmp
+*.swp
+
+# ===============================
+# macOS
+# ===============================
+.DS_Store
+
+# ===============================
+# Fastlane (se usar)
+# ===============================
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# ===============================
+# AppCode / VSCode
+# ===============================
+.idea/
+.vscode/
+
+# ===============================
+# Arquivos sensíveis
+# ===============================
+.env

@@ -8,7 +8,7 @@ struct ChatAppSwiftUIApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ChatView()
+            RootView()
         }
     }
 }
